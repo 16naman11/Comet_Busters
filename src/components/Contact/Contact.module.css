@@ -1,0 +1,147 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    margin-top: 100px;
+    justify-content: space-evenly;
+    width:100vw;
+    padding: 58px 10%;
+    gap: 10px;
+    margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactImage{
+    width: 70%;
+}
+
+.text h2{
+     font-size: 80px;
+     font-weight: 700;
+     letter-spacing: 4px;
+}
+
+.text p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.exp{
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.exp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165,215,232,0.42) 0%, rgba(255,255,255,0) 100%);
+    background-size: 0 100%; 
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    font-size: 25px;
+}
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    list-style:none;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.link a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+
+
+.link a:hover{
+    color: var(--color-primary);
+}
+
+@keyframes typing {
+    0%, 100% { width: 0; }
+    50%,90%{ width: 11em; }
+}
+
+@keyframes blinkCursor {
+    0% { border-right-color: transparent; }
+    50%, 90% { border-right-color: black; } /* Cursor blinks while text is visible */
+    100% { border-right-color: transparent; }
+}
+
+.typingAnimation{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid rgb(245, 244, 244); /* The cursor */
+    animation: typing 4s steps(40, end) infinite, blinkCursor .75s;
+    /* Adjust the timing (4s) to control the speed of the typing */
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column;
+        background-color: transparent;
+        padding-left: 2;
+        padding-right: 2;
+        gap: 23px;
+        background-color: var(--color-secondary);
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .contactImage{
+        display: none;
+        width: 100%;
+    }
+
+    .exp{
+        font-size: 20px;
+    }
+
+    .link{
+        align-items: center;
+    }
+}

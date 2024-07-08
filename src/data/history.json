@@ -1,0 +1,14 @@
+[
+    {
+      "role": "Mobile Phones",
+      "startDate": "New & Refurbished",
+      "experiences": ["Explore our diverse selection of phones, from cutting-edge models to budget-friendly options. Quality and affordability converge in our range of brand-new and refurbished devices."],
+      "imageSrc": "history/phone.png"
+    },
+    {
+      "role": "Laptops",
+      "startDate": "Open Box and Refurbished",
+      "experiences": ["Quality meets affordability in our range of open-box and refurbished laptops from top brands like Asus, Dell, HP, Lenovo, and more. Shop now and save big!"],
+      "imageSrc": "history/laptop.png"
+    } 
+  ]

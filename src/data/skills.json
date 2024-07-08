@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Samsung",
+      "imageSrc": "skills/samsung.png"
+    },
+    {
+      "title": "Apple",
+      "imageSrc": "skills/apple.png"
+    },
+    {
+        "title": "Motorola",
+        "imageSrc": "skills/moto.png"
+      },
+    {
+      "title": "Asus",
+      "imageSrc": "skills/asus.png"
+    },
+    {
+      "title": "HP",
+      "imageSrc": "skills/hp.png"
+    },
+    {
+      "title": "Dell",
+      "imageSrc": "skills/dell.png"
+    },
+    {
+      "title": "OnePlus",
+      "imageSrc": "skills/oneplus.png"
+    },
+    {
+      "title": "Google",
+      "imageSrc": "skills/google.png"
+    },
+    {
+        "title": "MI",
+        "imageSrc": "skills/mi.png"
+      }
+  ]

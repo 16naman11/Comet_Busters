@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Bindis",
+      "imageSrc": "projects/bindi.png",
+      "description": "Handcrafted with care, our collection features over 2500 designs, ranging from minimalist to vibrant, perfect for every occasion.",
+      "demo": "https://www.cometbusters.in/collections/bindis",
+      "source": "https://www.cometbusters.in/collections/bindis"
+    },
+    {
+      "title": "Nose Studs",
+      "imageSrc": "projects/nosestuds.png",
+      "description": "Adorn Without the Thorn!” These stylish decals provide a hassle-free way to enhance your look, no piercing required . ",
+      "demo": "https://www.cometbusters.in/collections/nose-studs",
+      "source": "https://www.cometbusters.in/collections/nose-studs"
+    },
+    {
+      "title": "Ear Studs",
+      "imageSrc": "projects/earstuds.png",
+      "description": " Adorn Gracefully, Glue Securely! These studs combine style and comfort, ensuring they stay put without irritation. ",
+      "demo": "https://www.cometbusters.in/collections/ear-studs",
+      "source": "https://www.cometbusters.in/collections/ear-studs"
+    },
+    {
+      "title": "Eye Jewels",
+      "imageSrc": "projects/eyejewel.png",
+      "description": "Elegance Unveiled: Adorn Your Gaze with Radiant Jewels, Sparkling Brightness for Every Occasion! ",
+      "demo": "https://www.cometbusters.in/collections/eye-liners",
+      "source": "https://www.cometbusters.in/collections/eye-liners"
+    }
+  ]
